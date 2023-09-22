@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+/*    background-color: black;*/
+    color: #db161d;
+}
+.image {
+    min-width: none;
+    max-width: fit-content;
+}
+.login-box {
+    min-width: 500px;
+    min-height: fit-content;
+    background-color: #343A40;
+    border-radius: 25px;
+    box-shadow: 5px 2px 2px #ad1f23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
